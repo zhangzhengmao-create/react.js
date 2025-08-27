@@ -1,9 +1,13 @@
-import JSXRules from "./01-Fundamentals/03-JSX-Rules/exercise/solution/JSXRules";
+import Footer from "./01-Fundamentals/04-MultipleComponents/exercise/solution/components/Footer";
+import Header from "./01-Fundamentals/04-MultipleComponents/exercise/solution/components/Header";
+import MainContent from "./01-Fundamentals/04-MultipleComponents/exercise/solution/components/MainContent";
 
 function App() {
   return (
     <>
-      <JSXRules />
+      <Header />
+      <MainContent />
+      <Footer />
     </>
   );
 }
