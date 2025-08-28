@@ -1,13 +1,11 @@
-import Footer from "./01-Fundamentals/04-MultipleComponents/exercise/solution/components/Footer";
-import Header from "./01-Fundamentals/04-MultipleComponents/exercise/solution/components/Header";
-import MainContent from "./01-Fundamentals/04-MultipleComponents/exercise/solution/components/MainContent";
+import Greeting from "./01-Fundamentals/05- Dynamic Content/exercise/solution/components/Greeting";
+import ProductInfo from "./01-Fundamentals/05- Dynamic Content/exercise/solution/components/ProductInfo";
 
 function App() {
   return (
     <>
-      <Header />
-      <MainContent />
-      <Footer />
+      <Greeting />
+      <ProductInfo />
     </>
   );
 }
